@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Helvetica', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --dark: #1d1d1d;
+}
+
+body{
+    padding-left: 20%;
+    padding-right: 20%;
+    
+}
+nav ul {
+    height: 100%;
+}
+nav li {
+    color: white;
+    list-style-type: none;
+    font-size: 1.25rem;
+
+} 
+.header {
+    background-color: var(--dark);
+    height: 12vh;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.header ul{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+#logo-transparent-light img {
+    width: 100px;
+}
